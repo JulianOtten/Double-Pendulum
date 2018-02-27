@@ -26,7 +26,7 @@ function setup() {
 }
 
 function draw() {
-    background(175);
+    background(255);
     imageMode(CORNER);
     image(buffer, 0, 0, width, height);
 
