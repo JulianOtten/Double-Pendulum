@@ -1,7 +1,9 @@
-let r1 = 200;
-let r2 = 200;
-let m1 = 20;
-let m2 = 20;
+new p5();
+
+let r1 = random(50, 400);
+let r2 = random(50, 400);
+let m1 = random(5, 40);
+let m2 = random(5, 40);
 let a1 = 0;
 let a2 = 0;
 let a1_v = 0;
