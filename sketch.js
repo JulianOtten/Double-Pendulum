@@ -17,11 +17,11 @@ let cx, cy;
 let buffer;
 
 function setup() {
-    createCanvas(900, 900);
+    createCanvas(1500, 1500);
     a1 = PI / 2;
     a2 = PI / 2;
     cx = width / 2;
-    cy = height / 2;
+    cy = height / 5;
     buffer = createGraphics(width, height);
     buffer.background(175);
     buffer.translate(cx, cy);
